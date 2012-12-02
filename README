@@ -1,0 +1,10 @@
+Scala-Tweet-Map
+
+Consume Twitter's public timeline (JSON) with Dispatch
+Exclue all non-null geo or coordinates field
+Using Casbah store data in MongoDB (truncate to only coordinates, username, tweet, and id_str)
+Use Akka to schedule previous action (every 30 minutes? every minute? possibly changeable?)
+Make simple Play! 2.0 web application to serve data in MongoDB as JSON.
+May put Akka actor(s) in Play! app to avoid running two services.
+Using served JSON, make d3 visualization to show where people are tweeting from on a globe.
+Play with geo-queries in MongoDB
